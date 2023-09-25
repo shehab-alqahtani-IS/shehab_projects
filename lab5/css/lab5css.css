@@ -1,0 +1,70 @@
+  
+  header{ /* selected by element */
+      background-color: rgb(55, 55, 119)/* background color of element */ ;
+      text-align: center /* put text in the center */;
+      color: white /* color of element */;
+      padding: 10px;
+  }
+  footer{
+    background-color: rgb(55, 55, 119);
+    text-align: center;
+    color: white;
+     ;
+    padding: 5px;
+
+  }
+ /* p{
+    width: 800px;
+    border:solid 1px blue;
+    text-align: center;
+    color: rgb(3, 3, 7);
+    font-size: 20px;
+} */
+.major{ /* selected by class */
+    text-align: center;
+    font-size:xx-large /* size of element */;
+}
+#lab { text-align: center; color: rgb(19, 57, 180); }/* selected by ID */
+
+h3, h2, .p2 {  /* select elements with the same style definitions, */
+    text-align: center;
+    color: rgb(119, 151, 43);
+     }
+    
+.p2 {/* يقوم بالتحكم في شكل وحجم ولون الحواف الخارجية للعنصر */
+    border-width: 2px; /* top, right, bottom, left */
+     border-color: red green; /* top, right, bottom, left */
+     border-style: solid dashed; /* top, right, bottom, left */
+     border: 2px solid red; /* Shorthand code */ }
+/* 
+p.one { border-style: solid;
+        border-width: 5px; }
+p.two { border-style: solid;
+         border-width: medium; }
+p.three { border-style: solid;
+         border-width: 2px 10px 4px 20px; } */
+p.one,p.two{border:2px solid black;}
+p.one,p.two{ margin-top:10px;
+    margin-bottom: 14px;
+     margin-right: 20px;
+      margin-left: 80px; }
+
+  #sourcee
+  video{
+     padding: 10px; /* top, right, bottom, left 'px, %'*/
+     margin: auto; /* top, right, bottom, left 'px, %' can use negative num*/
+     margin: top 10px;
+     margin-left:20px;
+     margin: right 20px;
+     margin-bottom: auto;
+
+     }
+     h3{ width: 300px;
+         padding: 10px;
+          border: 16px solid navy;
+           margin: 16px; }
+           p { border: 3px solid black; outline-color: rgb(76, 49, 170); }
+            p.dotted {outline-style: dotted;} 
+            p.dashed {outline-style: dashed;}
+             p.solid {outline-style: solid;}
+
